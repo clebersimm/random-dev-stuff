@@ -8,7 +8,11 @@ FROM python:3.11-slim
 
 RUN python3 -m pip install Django
 
+RUN groupadd -r pythondev -g 1000 && useradd -u 1000 -r -g pythondev
+
 WORKDIR /home/python/app
+
+EXPOSE 8000
 
 CMD [ "tail","-f", "/dev/null"]
 ```
@@ -23,6 +27,8 @@ services:
     build: .
     volumes:
       - .:/home/python/app
+    ports:
+      - 8000:8000
 ```
 Run docker compose up, can use -d, than run docker compose exec app bash
 
