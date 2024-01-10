@@ -1,3 +1,12 @@
+### Containers   
+
+"Production-ready, secure-by-design, ultra-small containers with chiselled Ubuntu"   
+https://canonical.com/blog/chiselled-ubuntu-ga   
+
+"Distroless images contain only your application and its runtime dependencies. They do not contain package managers, shells or any other programs you would expect to find in a standard Linux distribution"   
+https://github.com/GoogleContainerTools/distroless   
+
+
 ### Python   
 
 Create container do work with python/Django
