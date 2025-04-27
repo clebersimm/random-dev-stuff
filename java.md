@@ -1,7 +1,8 @@
-### Docker config
+# Java
 
+## Spring   
 
-**Spring boot**   
+### Spring boot
 
 Use JDK 21 or higher   
 
@@ -13,3 +14,11 @@ ENTRYPOINT ["java","-XX:TieredStopAtLevel=1","-XX:MaxRAMPercentage=70","-XX:+Use
 
 Example running on local machine, the ZGC give back to the OS the memory:   
 ![memory_usage](https://github.com/clebersimm/random-dev-stuff/assets/5503854/3009d32c-9f38-4cf6-8a3c-2c42b32fa2fd)
+
+
+## Tools
+
+### Sdkman  
+
+"The Software Development Kit Manager"   
+https://sdkman.io/
